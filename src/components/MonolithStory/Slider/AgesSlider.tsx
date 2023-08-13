@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide, useSwiperSlide } from "swiper/react";
-import * as ReactDOMServer from "react-dom/server";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
