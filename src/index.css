@@ -1,0 +1,41 @@
+@import "./styles/fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: CircularStd, "sans-serif";
+  color: white;
+}
+
+.hero-banner-container {
+  background: rgb(17, 17, 18);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.6) 35%
+  );
+}
+
+.logo_slider .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1 !important;
+  background-color: #4f1d1f !important;
+  padding: 0.4rem;
+  pointer-events: all !important;
+}
+.swiper-pagination-bullet:hover {
+  background-color: #fa5a5f !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fa5a5f !important;
+}

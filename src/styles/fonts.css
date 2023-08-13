@@ -1,0 +1,6 @@
+/* src/fonts.css */
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/circular-std-medium-500.ttf") format("truetype");
+}
