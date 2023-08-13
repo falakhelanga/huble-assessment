@@ -10,7 +10,7 @@ const MonoLithHeroBanner = () => {
     <div className="md:h-[90vh]  h-full bg-bottom  bg-[url(https://www.monolithai.com/hubfs/Group_39403_min.png)]">
       <div className="h-full w-full hero-banner-container max-sm:pt-10">
         <ContentWrap className="flex flex-col h-full justify-center ">
-          <div className="grid md:grid-cols-2">
+          <div className="grid lg:grid-cols-2">
             {" "}
             <div>
               <p className="text-peach text-xl font-bold">Monolith</p>

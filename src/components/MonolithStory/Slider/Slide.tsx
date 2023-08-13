@@ -12,7 +12,7 @@ export interface SlidePropTypes {
 const Slide = ({ text, icon, image, year, isActive }: SlidePropTypes) => {
   return (
     <div
-      className={`md:cursor-pointer  md:mr-[10rem] md:h-[17rem]  ${
+      className={`md:cursor-pointer  lg:mr-[10rem] lg:h-[17rem]  ${
         isActive ? "text-[#877A4D] " : "text-white"
       }  `}
     >

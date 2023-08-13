@@ -29,17 +29,22 @@ const LogoSlider = () => {
     <div className="relative">
       <Swiper
         breakpoints={{
+          ////// mobile
           0: {
             slidesPerView: 2,
             spaceBetween: 3,
           },
+          /////// tablets
+          800: {
+            slidesPerView: 3,
+          },
+          //////desktop
           1024: {
             slidesPerView: 4,
-            spaceBetween: 10,
           },
+          ////// large desktop
           1685: {
             slidesPerView: 4,
-            spaceBetween: 10,
           },
         }}
         freeMode={true}
